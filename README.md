@@ -3,7 +3,7 @@
 A microcontroller-based monitoring unit that reads temperature, distance, IR obstacle and motion sensors in real time and raises a buzzer and LED alert when a threshold is crossed.
 
 ## Hardware
-- ESP32 development board [or Arduino Uno]
+- ESP32 development board 
 - DHT11 temperature sensor
 - HC-SR04 ultrasonic distance sensor
 - IR obstacle sensor module
@@ -41,4 +41,4 @@ GPIO input/output, digital and timed pulse measurement, sensor interfacing, thre
 - Show readings on an OLED display (I2C)
 - Publish data to a cloud dashboard over MQTT
 - Replace delay() with non-blocking timing or FreeRTOS tasks
-- 
+  
